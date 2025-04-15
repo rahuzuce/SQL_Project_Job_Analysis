@@ -22,4 +22,5 @@ GROUP BY
 HAVING
     COUNT(*) > 10
 ORDER BY 
-    avg_salary DESC,skill_count DESC;
+    avg_salary DESC,skill_count DESC
+LIMIT 25;

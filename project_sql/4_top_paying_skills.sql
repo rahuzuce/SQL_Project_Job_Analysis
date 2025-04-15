@@ -19,7 +19,7 @@ WHERE
     AND jp.salary_year_avg IS NOT NULL
 GROUP BY 
     sd.skills
---HAVING
+-- HAVING
   --  COUNT(*) > 10
 ORDER BY 
     avg_salary DESC
